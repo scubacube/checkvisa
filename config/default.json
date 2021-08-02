@@ -1,0 +1,7 @@
+{
+  "port": "3080",
+  "mongoUri": "mongodb+srv://scubacube:qwaqwaqwa@cluster0.p4zmk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "baseUrl": "https://czvisas.herokuapp.com"
+}
+
+//"baseUrl": "http://localhost:3080"

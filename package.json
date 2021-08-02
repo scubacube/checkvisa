@@ -1,0 +1,45 @@
+{
+  "name": "checkvisa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "client:install": "npm install --prefix client",
+    "client:build": "npm run build --prefix client",
+    "dev": "cross-env NODE_ENV=development concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Alexey Chekhoskiy <alexey.chekhotskiy@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.12.1",
+    "concurrently": "^6.0.2",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^3.0.0",
+    "material-ui-flags": "^1.2.4",
+    "mongoose": "^5.12.7",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.6.0",
+    "nodemon": "^2.0.7",
+    "puppeteer": "^10.1.0",
+    "puppeteer-core": "^10.1.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-recaptcha": "^2.3.10"
+  },
+  "engines": {
+    "node": ">= 14.15.4",
+    "npm": ">= 4.4.0"
+  }
+}
