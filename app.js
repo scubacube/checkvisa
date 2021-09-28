@@ -16,7 +16,7 @@ let dataFromFront;
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'scubacube@gmail.com',
+        user: 'myemail@gmail.com',
         pass: process.env.MAIL_PASSWORD
     }
 });
